@@ -1,6 +1,6 @@
 name: modbus_client_serial_android
 description: This is the Modbus Client (ASCII and RTU) package sending requests to a remote device via Android's USB Serial Port
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/cabbi/modbus_client_serial_android
 
 environment:
@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  modbus_client: ^1.4.0
+  modbus_client: ^1.4.2
   usb_serial: ^0.5.2
 
 dev_dependencies:
